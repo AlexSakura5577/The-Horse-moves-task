@@ -35,5 +35,12 @@ let a = Math.round(Math.random() * 63);
 excel[a].classList.add('current');
 excel[a].classList.add('set');
 // console.log(a);
+let step = 1;
+excel[a].innerHTML = step;
+
+let currentX = excel[a].getAttribute('posX');
+let currentY = excel[a].getAttribute('posY');
+console.log(`currentX: ${currentX}`);
+console.log(`currentY: ${currentY}`);
 
 
