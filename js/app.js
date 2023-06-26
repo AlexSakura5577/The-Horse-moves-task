@@ -103,4 +103,11 @@ function nextStep() {
 };
 nextStep();
 
+document.querySelector('.current').classList.remove('current');
+
+vars[index].classList.add('current');
+vars[index].classList.add('set');
+
+
+
 
